@@ -1,3 +1,5 @@
+REM Lembre-se esse script só pode ser utilizado em laboratório ou em testes autorizados
+REM Remember, this script can only be used in a laboratory or for authorized testing.
 STRING 2000
 GUI r
 DELAY 700
